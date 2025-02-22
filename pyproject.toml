@@ -11,6 +11,7 @@ pytest = "^8.2.0"
 requests = "^2.32.3"
 six = "^1.16.0"
 swagger-parser = "^1.0.2"
+adc = "^0.0.3"
 
 
 [build-system]

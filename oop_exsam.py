@@ -17,7 +17,7 @@ class Game(Singleton):
             self.name = name
 
 
-
+# a = list(map(str.strip, sys.stdin.readlines()))
 game = Game("Game")
 game2 = Game("Game2")
 print(game.name)

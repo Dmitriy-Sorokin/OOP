@@ -34,6 +34,7 @@
 #
 # print(res)
 import random
+
 from traceback import print_tb
 
 import requests
@@ -356,21 +357,12 @@ from jinja2.nodes import Slice
 # book = ElBook("Python ООП", 2000, 2048, 'pdf')
 #
 # print(*table.get_data())
-# print(*book.get_data())
+# print(*book.get_data()
 
+import re
 
+string = '5_fs'
+only_numbers = re.findall(r'[0-9]', string)
+only_numbers = ''.join(only_numbers)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(only_numbers)
